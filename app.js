@@ -53,7 +53,7 @@ app.post("/", async (req, res) => {
         console.error(`  Error: ${result.error}`);
       }
     }
-    res.render("result.ejs", { result: results });
+    res.render("result.ejs", { result: results, documents: req.body.sendText, confidenceScores: confidenceScores });
   } catch (err) {
     console.log(err);
   }
