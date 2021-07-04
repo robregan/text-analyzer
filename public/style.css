@@ -2,7 +2,7 @@ img{
     width: 500px;
 }
 body{
-    background: cornflowerblue;
+    background: lightslategray;
     color: black;
     text-align: center;
     margin-top: 100px;
@@ -10,10 +10,19 @@ body{
 #sendText{
     height: 20px;
     width: 30%;
-    text-align: center;
+    text-align: left;
+}
+a:hover{
+    color:yellowgreen;
 }
 a{
-    color:chocolate;
+    color:darkblue;
     font-size: 25px;
     text-decoration: none;
 }
+#button{
+    background: teal;
+    height: 30px;
+    color: lavender;
+}
+
