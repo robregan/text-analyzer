@@ -1,3 +1,8 @@
+# Text-checka 
+  - live version: https://text-checka.herokuapp.com/
+  - using MS Azure's cognitive services, this program will analyze text, and return with either positive, negative, mixed or neutral results.
+
+
 # Install
 
 `npm install`
